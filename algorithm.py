@@ -18,6 +18,11 @@ def moving_average_calc(values):
     for x in values:
         return (sum(values)/count(values))
 
+def relative_strength(values):
+    return 0
+
+def exponential_moving_average(data):
+    return 0
 
 def trading_parameter(context, data):
     starting_cash = 2000
