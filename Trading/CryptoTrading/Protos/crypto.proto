@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "Trading";
+
+package greet;
+
+import "google/protobuf/empty.proto";
+
+
+service Crypto {
+  rpc Trade (CryptoTransaction) returns (google.protobuf.Empty);;
+}
+
+message CryptoTransaction {
+  string base_crypto = 1;						
+  string quote_crypto = 2;
+  string type = 3;				//buy or sell
+  double quantity = 4;
+}
