@@ -6,3 +6,5 @@
 /Trading/CryptoTrading/.vs/CryptoTrading
 /Trading/CryptoTrading/obj
 /Trading/CryptoTrading.Persistence/obj
+/Trading/WSServer/bin/Debug/net9.0
+/Trading/WSServer/obj
